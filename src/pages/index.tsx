@@ -18,9 +18,7 @@ const Home: NextPage = () => {
       </Head>
       <Navbar />
       <main className="">
-        <h1 className="text-white">
-          Hello
-        </h1>
+        <h1 className="text-white">Hello</h1>
       </main>
     </>
   );
