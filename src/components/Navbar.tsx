@@ -2,6 +2,7 @@ import logoImageMobile from "../../public/logoFavelaContestMobile.webp";
 import Image from "next/image";
 import { List, X } from "@phosphor-icons/react";
 import { useState } from "react";
+import { SocialMediaBoxes } from "./SocialMediaBoxes";
 
 export const Navbar = () => {
   const [isNavigationOpen, setIsNavigationOpen] = useState(false);
@@ -28,11 +29,7 @@ export const Navbar = () => {
           </li>
         </ul>
       </div>
-      <Image
-        className="sm:hidden md:flex"
-        src={logoImageMobile}
-        alt="Logo Favela Contest"
-      />
+      <SocialMediaBoxes />
 
       {isNavigationOpen ? (
         <div
