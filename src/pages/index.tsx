@@ -1,5 +1,6 @@
 import { type NextPage } from "next";
 import Head from "next/head";
+import { Hero } from "~/components/Hero";
 import { Navbar } from "~/components/Navbar";
 // import Link from "next/link";
 // import { signIn, signOut, useSession } from "next-auth/react";
@@ -17,9 +18,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main className="bg-emerald-600">
-        <h1 className="text-white">Hello</h1>
-      </main>
+      <Hero />
+      <div>Footer</div>
     </>
   );
 };
