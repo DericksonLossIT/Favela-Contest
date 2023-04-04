@@ -12,7 +12,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="flex h-28 items-center justify-evenly space-x-56 bg-transparent md:flex-row">
+    <div className="sticky top-0 flex h-28 items-center justify-evenly space-x-56 bg-black md:flex-row">
       <Image src={logoImageMobile} alt="Logo Favela Contest" />
       <div className="text-orange sm:hidden md:flex">
         <ul className="flex items-center justify-evenly gap-6 space-x-2">
